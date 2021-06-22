@@ -1,0 +1,154 @@
+body{
+  text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat', sans-serif;
+}
+p{
+  color: #8f8f8f;
+  font-size: 1rem;
+  margin-left: 50px;
+}
+a{
+  text-decoration: none;
+}
+
+/* Sections */
+
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+  color: #8f8f8f;
+}
+
+
+
+
+#title .container-fluid{
+  text-align: left;
+  padding: 2% 15% 7%;
+}
+.big-heading{
+  font-size: 2.5rem;
+  line-height: 1.5;
+  padding-bottom: 40px;
+}
+
+
+#features{
+  color: #171717;
+  position: relative;
+}
+.feature-heading{
+  font-size: 1.5rem;
+}
+.container-fluid{
+  padding: 7% 15%;
+}
+.btn{
+  margin: 5% 3% 5% 0;
+}
+.navbar-brand{
+  font-size: 30px;
+  font-weight: bold;
+}
+.dogpng{
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+}
+.navbar{
+  padding: 0 0 3.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+}
+
+.box1{
+  color: #ef8172;
+  font-size: 7rem;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 27px;
+}
+.box1:hover{
+  color: #ff4c68;
+}
+
+/* Testimonials Section */
+
+#testimonials{
+  background-color: #ef8172;
+}
+
+.testimonials-image{
+  border-radius: 100%;
+  width: 15%;
+  margin: 20px;
+}
+.testimonial-text{
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+/* Press Section */
+
+#press{
+  padding-bottom: 3%;
+  background-color: #ef8172;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing{
+  color: #171717;
+  padding: 100px;
+  background-color: #fff;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+.pricing-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+@media (max-width: 1028px) {
+  #title{
+    text-align: center;
+  }
+  .dogpng{
+    transform: rotate(0);
+    position: static;
+    width: 50%;
+  }
+}
+
+/* ITA section */
+
+.cta-header{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+/* footer section */
+
+.social-icon{
+  margin: 20px 10px;
+  color: black;
+}
